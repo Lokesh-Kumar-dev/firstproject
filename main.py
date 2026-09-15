@@ -9,3 +9,4 @@ def home():
 @app.get("/hello/{name}")
 def hello(name: str):
     return {"hello": name}
+    print("Hi Lokesh")
